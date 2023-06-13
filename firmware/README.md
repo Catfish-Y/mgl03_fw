@@ -13,7 +13,7 @@ Open telnet session, connect to gateway and run commands:
 ```sh
 wget -O /tmp/curl "http://master.dl.sourceforge.net/project/mgl03/bin/curl?viasf=1" && chmod +x /tmp/curl
 export PATH="$PATH:/tmp"
-curl -s -k -L -o /tmp/update.sh https://raw.githubusercontent.com/zvldz/mgl03_fw/main/firmware/mgl03_update.sh && sh /tmp/update.sh
+curl -s -k -L -o /tmp/update.sh https://raw.yzuu.cf/Catfish-Y/mgl03_fw/main/firmware/mgl03_update.sh && sh /tmp/update.sh
 ```
 You will need to select firmware version.
 
